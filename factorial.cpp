@@ -1,7 +1,7 @@
 /*
 This is a program for finding the factorial of a non-negative integer
 Made by Jonathan Hoskins
-Reference material - http://www.go4expert.com/forums/showthread.php?t=16145
+Reference material - http://www.mycoding.net/2011/02/c-program-to-find-the-factorial-of-a-number/
 */
 
 #include "stdafx.h"
