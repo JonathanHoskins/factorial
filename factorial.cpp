@@ -36,10 +36,11 @@ int main()
 	cout << "You entered a negative number!\n";
 	}
 	//If the user enters a negative number, this is printed out
-	else{
+	else
+	{
 	Factorial(input);
-	cout << factorialNumber << "\n";
-}
+	cout <<"The factorial of"<<input<<"is:"<<factorialNumber << "\n";
+        }
 	//I put this in so that I could output the numbers to a file for easy checking.
 	//I did this because20! was giving me a negative number.
 	//I had to add "long long" in front of int factorialNumber when I declared it.
