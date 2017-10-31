@@ -29,10 +29,11 @@ for(int i = 1; i <= input; i++)
 
 int main()
 {
-	cout << "Please input a number to find its factorial: ";
+	cout << "Enter the number who's factorial is to be found: ";
 	cin >> input;
 	//This instance makes sure that the user inputs a positive integer number
-	if(input < 0){
+	if(input < 0)
+	{
 	cout << "You entered a negative number!\n";
 	}
 	//If the user enters a negative number, this is printed out
